@@ -1,0 +1,1276 @@
+/* common style */
+.wrapple{
+    width: 1365px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.text h1{
+text-align: center;
+font-size: 27px;
+}
+
+/* one section */
+#one{
+    height: 450px;
+}
+.box1{
+    position: relative;
+    height: 360px;
+    width: 356px;
+    background-color: red;
+    overflow: hidden;
+}
+.box1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: -200;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.16);
+    box-shadow: 3px -24px 20px 3px #0000002b;
+    transition: all .2s;
+}
+
+.box1 h1{
+    position: absolute;
+    bottom:-20;
+    left: 15;
+    color: white;
+    font-size: 20px;
+    transition: all .3s cubic-bezier(0.99, -0.29, 0.54, 0.91);
+}
+.box1 p{
+    position: absolute;
+    bottom: -40;
+    left: 15;
+    color: white;
+    font-size: 13px;
+    transition: all 0.5s cubic-bezier(0, -1.2, 0.99, 0.99);
+}
+.box1:hover .overlay{
+    bottom: 0;
+}
+.box1:hover h1{
+    bottom: 40;
+}
+.box1:hover p{
+    bottom: 15;
+}
+
+/* two section */
+#two{
+    height: 400px;
+}
+
+.box2{
+    position: relative;
+    height: 360px;
+    width: 356px;
+    background-color: red;
+    overflow: hidden;
+    transition: bottom 0.5s cubic-bezier(0.11, -0.31, 0.43, 1.04);
+}
+.box2 img{
+    height: 100%;
+    width: 100%;
+    transition: all .6s;
+}
+
+.overlay2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.box2:hover .overlay2{
+    background-color: rgba(115, 38, 179, 0.37);
+}
+
+.overlay2 input{
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    height: 45px;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    font-size: 20px;
+}
+.box2:hover input{
+    background-color: black;
+    color: white;
+}
+
+.box2 h1{
+    position: absolute;
+    top: -20px;
+    left: 20%;
+    color: white;
+    font-size: 20px;
+    transition:  top .3s cubic-bezier(1, -0.37, 0.48, 1.1);
+}
+.box2 p{
+    position: absolute;
+    bottom: -30px;
+    left: 22%;
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+    text-align: center;
+}
+.box2:hover p{
+    bottom: 50%;
+}
+
+
+.box2:hover img{
+   transform: scale(1.1);
+}
+
+.box2:hover h1{
+    top: 100px;
+}
+
+
+ /* three hover */
+ #three{
+    height: 450px;
+}
+
+ .box3{
+    position: relative;
+    height: 360px;
+    width: 356px;
+    background-color: red;
+    overflow: hidden;
+ }
+ .box3 img{
+    height: 100%;
+    width: 100%;
+}
+.overlay3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .1s;
+}
+.box3:hover .overlay3{
+    background-color: rgba(0, 0, 0, 0.49);
+}
+
+
+.box3 h1{
+    position: absolute;
+    top: -30px;
+    right: -150px;
+    color: white;
+    font-size: 20px;
+   transition-duration: .2s;
+   transition-delay: .3s;
+}
+.box3:hover h1{
+    top: 111px;
+    right: 70px;
+}
+.box3 p{
+    position: absolute;
+    top: -30px;
+    right: -150px;
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+    text-align: center;
+    border-top: 1px solid black; 
+    transition-duration: .3s;
+    transition-delay: .3s;
+}
+.box3:hover p{
+    top: 45%;
+    right: 80px;
+}
+
+.overlay3 input{
+    position: absolute;
+    bottom: -46px;
+    left: 35%;
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: all .5s;
+    transition-delay: .3s;
+}
+.box3:hover input{
+    bottom: 30%;
+}
+
+/* four hover */
+#four{
+    height: 450px;
+}
+
+.box4{
+    position: relative;
+    height: 360px;
+    width: 356px;
+    background-color: red;
+    overflow: hidden;
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.49);
+    transition: all .6s;
+ }
+ .box4 img{
+    height: 100%;
+    width: 100%;
+    transition: all .8s;
+}
+.box4:hover img{
+    transform: scale(8);
+}
+.overlay4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .6s;
+    transition-delay: .2s;
+}
+.box4:hover  .overlay4{
+    background-color: rgb(255, 254, 231);
+}
+
+.box4 h1{
+    position: absolute;
+    top: 111px;
+    right: 44%;
+    color: transparent;
+    font-size: 5px;
+   transition-duration: .7s;
+}
+.box4:hover  h1{
+    right: 70px;
+    font-size: 20px;
+   color: black;
+}
+
+.box4 p{
+    position: absolute;
+    top: 45%;
+    right: 43%;
+    color: transparent;
+    font-size: 5px;
+    transition: .3s;
+    text-align: center;
+    transition-duration: .7s;
+}
+.box4:hover  p{
+    right: 20%;
+    font-size: 15px;
+    color: black;
+    border-top: 1px solid black; 
+ }
+.overlay4 input{
+    position: absolute;
+    bottom: 30%;
+    left: 48%;
+    height: 5px;
+    width: 5px;
+    background-color:transparent;
+    border: none;
+    color: transparent;
+    transition-duration: .7s;
+} 
+.box4:hover input{
+    font-size: 20px;
+    bottom: 30%;
+    left: 35%;
+    height: 45px;
+    width: 100px;
+    color: white;
+    background-color:black;
+ }
+
+ /* five hover */
+ #five{
+    height: 450px;
+}
+
+ .box5{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background-color: red;
+    overflow: hidden;
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.49);
+    perspective: 270px;
+ }
+ .box5 img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay5{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0);
+    transition:all 1s;
+    transform: rotateY(90deg);
+}
+.box5:hover .overlay5{
+    transform: rotateY(0deg);
+    background-color: rgba(255, 255, 255, 0.746);
+} 
+.overlay5 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: transparent;
+}
+.box5:hover h1{
+    color: black;
+} 
+.overlay5 p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: transparent;
+}
+.box5:hover p{
+    color: black;
+} 
+
+/* six hover */
+#six{
+    height: 450px;
+}
+
+.box6{
+    position: relative;
+    height: 273px;
+    width: 342px;
+    background-color: rgb(255, 255, 255);
+    perspective: 2000px;
+    box-shadow: 0px 35px 0px rgba(0, 0, 0, 0.49);
+    transition: all .6s;
+ }
+
+
+
+
+ .box6 img{
+    height: 360px;
+    width: 315px;
+    margin-left: 13px;
+    transform: rotateX(63deg);
+    transition: all .6s;
+}
+
+.box6:hover{
+    position: relative;
+    height: 273px;
+    width: 342px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.49);
+}
+
+.box6:hover img{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    transform: rotateX(0deg);
+}
+
+/* seven hover */
+#seven{
+    height: 450px;
+} 
+
+.box7{
+    position: relative;
+    height: 360px;
+    width: 360px;
+    overflow: hidden;
+}
+.box7 img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    transform: scale(1.09,1.09);
+}
+
+.box7:hover img{
+    transform: scale(1,1);
+    filter: blur(2px);
+}
+
+.overlay7{
+    position:absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.box7:hover .overlay7{
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.overlay7 h1{
+    color: transparent;
+    font-size: 25px;
+    top: 40%;
+    position: absolute;
+    left: 22%;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+.box7:hover h1{
+    color: white;
+}
+.overlay7 p{
+    color: transparent;
+    font-size: 19px;
+    position: absolute;
+    top: 49%;
+    left: 33%;
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+.box7:hover p{
+    color: #b3abab;
+}
+
+/* eight hover */
+#eight{
+    height: 330px;
+}
+.box8{
+    position: relative;
+    height: 240px;
+    width: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box8 img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay8{
+    position: absolute;
+    top: 122px;
+    background-color: rgba(255, 255, 255, 0.794);
+    height: 0px;
+    left: -43px;
+    width: 474px;
+    transform: rotateZ(144deg);
+    transition: all 0.4s;
+}
+
+.box8:hover .overlay8{
+    top: -4px;
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 260px;
+} 
+
+.box8 h1{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 20%;
+    right: 16%;
+    color: transparent;
+    font-size: 4px;
+    transition: all .4s;
+}
+.box8:hover h1{
+    right: 20%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.box8 p{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 32%;
+    left: 18%;
+    text-align: center;
+    color: transparent;
+    transition: all .2s;
+}
+.box8:hover p{
+    color: rgb(0, 0, 0);
+}
+
+.box8 input{
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    height: 36px;
+    border: none;
+    width: 100px;
+    border-radius: 9px;
+    background-color: transparent;
+    color: transparent;
+    transition: all .2s;
+}
+.box8:hover input{
+    background-color: #9e9e9e;
+    color: white;
+}
+
+/* ten hover */
+
+#ten{
+    height: 300px;
+}
+.box10{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box10 img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay10{
+position: absolute;
+    background-color: rgba(243, 243, 243, 0.705);
+ top: -23px;
+    left: -110px;
+    width: 459px;
+    height: 250px;
+    transition: all 0.3s cubic-bezier(1, 1.39, 0.3, 0.9);
+}
+
+ .box10:hover .overlay10{
+    top: -51px;
+    left: 125px;
+    width: 0px;
+    height: 269px;
+    transform: skew(49deg);
+}  
+
+.box10 h1{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 20%;
+    right: 19%;
+    color: black;
+    font-size: 27px;
+    transition: all .4s;
+}
+.box10:hover h1{
+    color: transparent;
+}
+
+.box10 p{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 52%;
+    left: 22%;
+    text-align: center;
+    color: #3c3b3b;
+    font-size: 14px;
+    transition: all .2s;
+}
+.box10:hover p{
+    color: transparent;
+}
+
+/* eleven hover */
+
+#eleven{
+    height: 380px;
+}
+.box11{
+    position: relative;
+    height: 285px;
+    width: 280px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box11 img{
+    height: 100%;
+    width: 100%;
+}
+.overlay11{
+    position:absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+.box11:hover .overlay11{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+.box11 .content11{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: rgba(226, 226, 226, 0.582);
+    width: 230px;
+    height: 230px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transform: rotateX(90deg);
+    transition: all .6s;
+    transition-delay: .1s;
+
+}
+.box11:hover .content11{
+    transform: rotateX(180deg);
+    background-color: rgba(226, 226, 226, 0);
+}
+.box11 h1{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 28%;
+    left: 57px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 19px;
+    transition: all .4s;
+}
+.box11:hover h1{
+    top: 15%;
+    color: rgb(255, 255, 255);
+}
+ .box11 h2{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 39%;
+    left: 38%;
+    color: rgba(255, 255, 255, 0);
+    font-size: 19px;
+    transition: all .4s;
+}
+.box11:hover h2{
+    top: 23%;
+    color: rgb(255, 255, 255);
+}
+
+.box11 p{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 50%;
+    left: 39px;
+    color: rgba(230, 227, 227, 0);
+    font-size: 16px;
+    line-height: 22px;
+    transition: all .2s;
+    transition-delay: .4s;
+} 
+.box11:hover p{
+    color: rgb(230, 227, 227);
+}
+
+/* twelve hover */
+#twelve{
+    height: 380px;
+}
+
+ .box12{
+    position: relative;
+    height: 285px;
+    width: 280px;
+    overflow: hidden;
+    perspective: 600px;
+ }
+ .box12 img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay12{
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    width: 91%;
+    height: 87%;
+    background-color: rgba(255, 255, 255, 0);
+    transform: rotateX(90deg);
+    transition: all .4s;
+}
+
+.box12:hover .overlay12{
+    transform: rotateX(0deg);
+    background-color: rgba(255, 255, 255, 0.746);
+} 
+
+.overlay12 h1{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 39px;
+    color: transparent;
+    transition: all .4s ease-out;
+}
+
+.box12:hover h1{
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+}
+
+.overlay12 p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 24px;
+    color: #a7a6a600;
+    transition: all .4s;
+}
+.box12:hover p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #a7a6a6;
+}
+
+/* thirteen hover*/
+
+#thirteen{
+    height: 350px;
+    background-color: #b63333;
+   
+}
+
+ .box13{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+ }
+ .box13 img{
+    height: 100%;
+    width: 100%;
+}
+.overlay13{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.content13{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 0px;
+    height: 180px;
+    background-color:rgba(211, 211, 211, 0.678);
+    border-right: 4px solid #c5c4c4;
+    transition: all .4s;
+    transition-delay: .2s;
+    overflow: hidden;
+    text-overflow: "----";  
+}
+.box13:hover .content13{
+    background-color: transparent;
+    width: 300px;
+}
+.content13 h1{
+    margin-left: -100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: transparent;
+    font-size: 18px;
+  transition-duration: .3s;
+  transition-delay: 1s;
+}
+   
+.box13:hover h1{
+    margin-left: 55px;
+    color: rgb(255, 255, 255);
+}
+
+
+ .box13 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: transparent;
+    font-size: 18px;
+    color: rgba(255, 0, 0, 0);
+    transition: all .9s linear;
+}
+.box13:hover h1{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.content13 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    transition: all .6s;
+    margin-top: 10px;
+}
+
+.content13 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 228, 228);
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 26px;
+    transition: all .6s;
+} 
+
+
+/* fourteen hover */
+
+#fourteen{
+    height: 350px;
+    
+}
+
+ .box14{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+ }
+ .box14 img{
+    height: 100%;
+    width: 100%;
+}
+.overlay14{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.content14{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    height: 180px;
+    background-color:rgba(211, 211, 211, 0.555);
+    border-right: 2px solid #c5c4c4;
+    border-left: 2px solid #c5c4c4;
+    transform: rotateY(90deg);
+    transition: all .4s;
+    transition-delay: .3s;
+    overflow: hidden;
+}
+.box14:hover .content14{
+    background-color:rgba(211, 211, 211, 0);
+    transform: rotateY(0deg);
+}
+
+.content14 h1{
+    position: absolute;
+    left:15%;
+    top:40%;
+    text-transform: uppercase; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: transparent;
+    font-size: 18px;
+    transition: all .6s ease-out;
+    transition-delay: .2s;
+}
+.box14:hover h1{
+    top:20%;
+    color: rgb(255, 255, 255);
+}
+.content14 span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    font-size: 19px;
+    transition: all .6s linear;
+    transition-delay: .2s;
+}
+.box14:hover span{
+    color: rgb(255, 255, 255);
+}
+.content14 p{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d6d4d400;
+    font-size: 11px;
+    text-align: center;
+    transition: all .6s ease-out;
+    transition-delay: .6s;
+}
+.box14:hover p{
+    color: #d6d4d4;
+}
+
+/* fifteen hover */
+
+#fifteen{
+    height: 350px;
+}
+
+ .box15{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+ }
+ .box15 img{
+    height: 100%;
+    width: 100%;
+}
+.boxTop{
+    position: absolute;
+    top:50px;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .6s;
+    transition-delay: .6s;
+}
+.box15:hover .boxTop{
+    height: 53%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.boxCenter{
+    position: absolute;
+    top: 51%;
+    width: 70%;
+    height: 1%;
+    transition: .4s;
+    margin: 0px 57px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.box15:hover .boxCenter{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.boxBottom{
+    position: absolute;
+    top:52%;
+    width: 100%;
+    height: 20%;
+    transition: .6s;
+    transition-delay: .6s;
+    background-color: rgba(255, 253, 253, 0);
+}
+.box15:hover .boxBottom{
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.boxTop h1{
+    position: absolute;
+    left:13%;
+    top:60%;
+    text-transform: uppercase; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    text-align: center;
+    transition: all .6s ease-out;
+    transition-delay: .6s;
+}
+.box15:hover h1{
+    top:20%;
+    color: rgb(255, 255, 255);
+}
+.boxBottom p{
+    position: absolute;
+    left: 14%;
+    top: 17%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(103, 101, 101, 0);
+    font-size: 13px;
+    text-align: center;
+    transition: all .6s ease-out;
+    transition-delay: .6s;
+}
+.box15:hover p{
+    top: 22%;
+    color: rgb(103, 101, 101);
+}
+
+/* sixteen hover */
+
+#sixteen{
+    height: 350px;
+}
+
+ .box16{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+    animation-name: box16;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes box16 {
+    0%   {margin-top:0px;}
+    50%  {margin-top:10px;}
+    100% {margin-top:0px;}
+}
+
+
+ .box16 img{
+    height: 100%;
+    width: 100%;
+}
+.overlay16{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.content16{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 85%;
+    height: 80%;
+    border: 3px solid white;
+}
+.content16 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    text-align: center;
+    letter-spacing: 6px;
+    animation-name: h1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes h1{
+    0%   {margin-top:0px;}
+    50%  {margin-top:40px;}
+    100% {margin-top:0px;}
+}
+.content16 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(216, 211, 211);
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    animation-name: p;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/* seventeen hover */
+#seventeen{
+    height: 350px;
+}
+
+ .box17{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+ .box17 img{
+     backface-visibility: hidden;
+     transition: .8s;
+    transform: rotateY(0deg);
+    height: 100%;
+    width: 100%;
+}
+.box17:hover img{
+    transform: rotateY(-180deg);
+}
+.content17{
+    position: absolute;
+    visibility: hidden;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-180deg);
+    transition: .8s;
+}
+.box17:hover .content17 {
+    visibility: visible;
+    background-color: rgb(84, 84, 84);
+    transform: rotateY(-360deg);
+}
+
+.content17 h1{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    text-align: center;
+}
+.content17 p{
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: center
+}
+
+
+/* nineteen hover */
+#nineteen{
+    height: 400px;
+    background-color: rgba(167, 218, 86, 0.657);
+}
+
+ .box19{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+ .box19 img{
+    height: 100%;
+    width: 100%;
+}
+.overlay19{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.content19{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 85%;
+    height: 85%;
+    transition: .8s;
+    border-right: 1px solid black;
+}
+.box19:hover .content19{
+    border-right: 1px solid white;
+}
+/* twenty hover */
+
+#twenty{
+    height: 350px;
+}
+
+ .box20{
+    position: relative;
+    height: 240px;
+    width: 360px;
+    overflow: hidden;
+ }
+ .box20 img{
+    height: 100%;
+    width: 100%;
+}
+.boxTop{
+    position: absolute;
+    top:50px;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .6s;
+    transition-delay: .6s;
+}
+.box20:hover .boxTop{
+    height: 53%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.boxCenter{
+    position: absolute;
+    top: 51%;
+    width: 70%;
+    height: 1%;
+    transition: .4s;
+    margin: 0px 57px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.box20:hover .boxCenter{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.boxBottom{
+    position: absolute;
+    top:52%;
+    width: 100%;
+    height: 20%;
+    transition: .6s;
+    transition-delay: .6s;
+    background-color: rgba(255, 253, 253, 0);
+}
+.box20:hover .boxBottom{
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.boxTop h1{
+    position: absolute;
+    left:13%;
+    top:60%;
+    text-transform: uppercase; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    text-align: center;
+    transition: all .6s ease-out;
+    transition-delay: .6s;
+}
+.box20:hover h1{
+    top:20%;
+    color: rgb(255, 255, 255);
+}
+.boxBottom p{
+    position: absolute;
+    left: 14%;
+    top: 17%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(103, 101, 101, 0);
+    font-size: 13px;
+    text-align: center;
+    transition: all .6s ease-out;
+    transition-delay: .6s;
+}
+.box20:hover p{
+    top: 22%;
+    color: rgb(103, 101, 101);
+}
+
+.seh{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-image: linear-gradient(130deg, #ffffff,#f7f1f1,#efeaea,#efe9e9,#efe8e8,#a59e9e,#9c9393,#9a9797,#9c9393,#827f7f);
+    box-shadow: 23px 24px 20px 20px #484545;
+    transition: all .6s ease-out;
+    transition-delay: 1s;
+}
+.box20:hover .seh{
+    width: 40;
+    height: 40;
+}
